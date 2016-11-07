@@ -1,0 +1,748 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Input Attributes</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <style>
+        html {
+            font: 16px/1.5 'Lato', sans-serif;
+        }
+        a {
+        }
+        table {
+            border-collapse: collapse;
+            font-size: 1em;
+            table-layout: fixed;
+            width: 100%;
+        }
+        tr > td {
+            opacity: .7;
+        }
+        tr:hover >td {
+            opacity: 1;
+        }
+        th, td {
+            border: 1px solid lightgrey;
+            padding: .5em .25em;
+        }
+        th:first-child {
+            width: calc(168px + 1em);
+        }
+        .no {
+            background-color: #FF3E45;
+        }
+        .yes {
+            background-color: #41E86D;
+        }
+        [colspan="15"] {
+            font-size: 1.25em;
+            padding-left: 2em;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+<h1>Input Attribute Map</h1>
+<p>Table gleaned from W3C spec:</p>
+    <table class="applies">
+      <thead>
+       <tr>
+        <th>
+        </th><th> <a data-link-type="element-state" href="sec-forms.html#element-statedef-input-hidden" id="ref-for-element-statedef-input-hidden-3">Hidden</a> 
+        </th><th> <a data-link-type="element-state" href="sec-forms.html#element-statedef-input-text" id="ref-for-element-statedef-input-text-3">Text</a>, <a data-link-type="element-state" href="sec-forms.html#element-statedef-input-search" id="ref-for-element-statedef-input-search-3">Search</a> 
+        </th><th> <a data-link-type="element-state" href="sec-forms.html#element-statedef-input-url" id="ref-for-element-statedef-input-url-3">URL</a>, <a data-link-type="element-state" href="sec-forms.html#element-statedef-input-telephone" id="ref-for-element-statedef-input-telephone-4">Telephone</a> 
+        </th><th> <a data-link-type="element-state" href="sec-forms.html#element-statedef-input-e-mail" id="ref-for-element-statedef-input-e-mail-3">E-mail</a> 
+        </th><th> <a data-link-type="element-state" href="sec-forms.html#element-statedef-input-password" id="ref-for-element-statedef-input-password-2">Password</a> 
+        </th><th> <a data-link-type="element-state" href="sec-forms.html#element-statedef-input-date-and-time" id="ref-for-element-statedef-input-date-and-time-2">Date and Time</a>, <a data-link-type="element-state" href="sec-forms.html#element-statedef-input-date" id="ref-for-element-statedef-input-date-2">Date</a>, <a data-link-type="element-state" href="sec-forms.html#element-statedef-input-month" id="ref-for-element-statedef-input-month-2">Month</a>, <a data-link-type="element-state" href="sec-forms.html#element-statedef-input-week" id="ref-for-element-statedef-input-week-2">Week</a>, <a data-link-type="element-state" href="sec-forms.html#element-statedef-input-time" id="ref-for-element-statedef-input-time-2">Time</a> 
+        </th><th> <a data-link-type="element-state" href="sec-forms.html#element-statedef-input-number" id="ref-for-element-statedef-input-number-2">Number</a> 
+        </th><th> <a data-link-type="element-state" href="sec-forms.html#element-statedef-input-range" id="ref-for-element-statedef-input-range-2">Range</a> 
+        </th><th> <a data-link-type="element-state" href="sec-forms.html#element-statedef-input-color" id="ref-for-element-statedef-input-color-2">Color</a> 
+        </th><th> <a data-link-type="element-state" href="sec-forms.html#element-statedef-input-checkbox" id="ref-for-element-statedef-input-checkbox-2">Checkbox</a>, <a data-link-type="element-state" href="sec-forms.html#element-statedef-input-radio-button" id="ref-for-element-statedef-input-radio-button-5">Radio Button</a> 
+        </th><th> <a data-link-type="element-state" href="sec-forms.html#element-statedef-input-file-upload" id="ref-for-element-statedef-input-file-upload-3">File Upload</a> 
+        </th><th> <a data-link-type="element-state" href="sec-forms.html#element-statedef-input-submit-button" id="ref-for-element-statedef-input-submit-button-3">submit button</a> 
+        </th><th> <a data-link-type="element-state" href="sec-forms.html#element-statedef-input-image-button" id="ref-for-element-statedef-input-image-button-6">image button</a> 
+        </th><th> <a data-link-type="element-state" href="sec-forms.html#element-statedef-input-reset-button" id="ref-for-element-statedef-input-reset-button-3">reset button</a>, <a data-link-type="element-state" href="sec-forms.html#element-statedef-input-button" id="ref-for-element-statedef-input-button-3">Button</a> 
+      </th></tr></thead><tbody>
+       <tr>
+        <th colspan="15" scope="rowgroup">Content attributes 
+       </th></tr><tr>
+        <th> <code><a data-link-type="element-sub" href="sec-forms.html#element-attrdef-input-accept" id="ref-for-element-attrdef-input-accept-3">accept</a></code> 
+        </th><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+       </td></tr><tr>
+        <th> <code><a data-link-type="element-sub" href="sec-forms.html#element-attrdef-input-alt" id="ref-for-element-attrdef-input-alt-3">alt</a></code> 
+        </th><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+       </td></tr><tr>
+        <th> <code><a data-link-type="element-sub" href="sec-forms.html#element-attrdef-autocompleteelements-autocomplete" id="ref-for-element-attrdef-autocompleteelements-autocomplete-12">autocomplete</a></code> 
+        </th><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+       </td></tr><tr>
+        <th> <code><a data-link-type="element-sub" href="sec-forms.html#element-attrdef-input-checked" id="ref-for-element-attrdef-input-checked-3">checked</a></code> 
+        </th><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+       </td></tr><tr>
+        <th> <code><a data-link-type="element-sub" href="sec-forms.html#element-attrdef-input-dirname" id="ref-for-element-attrdef-input-dirname-3">dirname</a></code> 
+        </th><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+       </td></tr><tr>
+        <th> <code><a data-link-type="element-sub" href="sec-forms.html#element-attrdef-submitbuttonelements-formaction" id="ref-for-element-attrdef-submitbuttonelements-formaction-3">formaction</a></code> 
+        </th><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+       </td></tr><tr>
+        <th> <code><a data-link-type="element-sub" href="sec-forms.html#element-attrdef-submitbuttonelements-formenctype" id="ref-for-element-attrdef-submitbuttonelements-formenctype-3">formenctype</a></code> 
+        </th><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+       </td></tr><tr>
+        <th> <code><a data-link-type="element-sub" href="sec-forms.html#element-attrdef-submitbuttonelements-formmethod" id="ref-for-element-attrdef-submitbuttonelements-formmethod-3">formmethod</a></code> 
+        </th><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+       </td></tr><tr>
+        <th> <code><a data-link-type="element-sub" href="sec-forms.html#element-attrdef-submitbuttonelements-formnovalidate" id="ref-for-element-attrdef-submitbuttonelements-formnovalidate-3">formnovalidate</a></code> 
+        </th><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+       </td></tr><tr>
+        <th> <code><a data-link-type="element-sub" href="sec-forms.html#element-attrdef-submitbuttonelements-formtarget" id="ref-for-element-attrdef-submitbuttonelements-formtarget-3">formtarget</a></code> 
+        </th><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+       </td></tr><tr>
+        <th> <code><a data-link-type="element-sub" href="semantics-embedded-content.html#element-attrdef-media-height" id="ref-for-element-attrdef-media-height-3">height</a></code> 
+        </th><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+       </td></tr><tr>
+        <th> <code><a data-link-type="element-sub" href="sec-forms.html#element-attrdef-input-inputmode" id="ref-for-element-attrdef-input-inputmode-5">inputmode</a></code> 
+        </th><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+       </td></tr><tr>
+        <th> <code><a data-link-type="element-sub" href="sec-forms.html#element-attrdef-input-list" id="ref-for-element-attrdef-input-list-3">list</a></code> 
+        </th><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+       </td></tr><tr>
+        <th> <code><a data-link-type="element-sub" href="sec-forms.html#element-attrdef-input-max" id="ref-for-element-attrdef-input-max-4">max</a></code> 
+        </th><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+       </td></tr><tr>
+        <th> <code><a data-link-type="element-sub" href="sec-forms.html#element-attrdef-input-maxlength" id="ref-for-element-attrdef-input-maxlength-4">maxlength</a></code> 
+        </th><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+       </td></tr><tr>
+        <th> <code><a data-link-type="element-sub" href="sec-forms.html#element-attrdef-input-min" id="ref-for-element-attrdef-input-min-4">min</a></code> 
+        </th><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+       </td></tr><tr>
+        <th> <code><a data-link-type="element-sub" href="sec-forms.html#element-attrdef-input-minlength" id="ref-for-element-attrdef-input-minlength-3">minlength</a></code> 
+        </th><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+       </td></tr><tr>
+        <th> <code><a data-link-type="element-sub" href="sec-forms.html#element-attrdef-input-multiple" id="ref-for-element-attrdef-input-multiple-3">multiple</a></code> 
+        </th><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+       </td></tr><tr>
+        <th> <code><a data-link-type="element-sub" href="sec-forms.html#element-attrdef-input-pattern" id="ref-for-element-attrdef-input-pattern-4">pattern</a></code> 
+        </th><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+       </td></tr><tr>
+        <th> <code><a data-link-type="element-sub" href="sec-forms.html#element-attrdef-input-placeholder" id="ref-for-element-attrdef-input-placeholder-3">placeholder</a></code> 
+        </th><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+       </td></tr><tr>
+        <th> <code><a data-link-type="element-sub" href="sec-forms.html#element-attrdef-input-readonly" id="ref-for-element-attrdef-input-readonly-3">readonly</a></code> 
+        </th><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+       </td></tr><tr>
+        <th> <code><a data-link-type="element-sub" href="sec-forms.html#element-attrdef-input-required" id="ref-for-element-attrdef-input-required-4">required</a></code> 
+        </th><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+       </td></tr><tr>
+        <th> <code><a data-link-type="element-sub" href="sec-forms.html#element-attrdef-input-size" id="ref-for-element-attrdef-input-size-3">size</a></code> 
+        </th><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+       </td></tr><tr>
+        <th> <code><a data-link-type="element-sub" href="sec-forms.html#element-attrdef-input-src" id="ref-for-element-attrdef-input-src-3">src</a></code> 
+        </th><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+       </td></tr><tr>
+        <th> <code><a data-link-type="element-sub" href="sec-forms.html#element-attrdef-input-step" id="ref-for-element-attrdef-input-step-4">step</a></code> 
+        </th><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+       </td></tr><tr>
+        <th> <code><a data-link-type="element-sub" href="semantics-embedded-content.html#element-attrdef-media-width" id="ref-for-element-attrdef-media-width-3">width</a></code> 
+        </th><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+      </td></tr></tbody><tbody>
+       <tr>
+        <th colspan="15" scope="rowgroup">IDL attributes and methods 
+       </th></tr><tr>
+        <th> <code class="idl"><a data-link-type="idl" href="sec-forms.html#dom-htmlinputelement-checked" id="ref-for-dom-htmlinputelement-checked-3">checked</a></code> 
+        </th><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+       </td></tr><tr>
+        <th> <code class="idl"><a data-link-type="idl" href="sec-forms.html#dom-htmlinputelement-files" id="ref-for-dom-htmlinputelement-files-3">files</a></code> 
+        </th><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+       </td></tr><tr class="impl">
+        <th> <code class="idl"><a data-link-type="idl" href="sec-forms.html#dom-htmlinputelement-value" id="ref-for-dom-htmlinputelement-value-2">value</a></code> 
+        </th><td class="yes"> <a data-link-type="mode" href="sec-forms.html#modedef-input-default" id="ref-for-modedef-input-default-1">default</a> 
+        </td><td class="yes"> <a data-link-type="mode" href="sec-forms.html#modedef-input-value" id="ref-for-modedef-input-value-1">value</a> 
+        </td><td class="yes"> <a data-link-type="mode" href="sec-forms.html#modedef-input-value" id="ref-for-modedef-input-value-2">value</a> 
+        </td><td class="yes"> <a data-link-type="mode" href="sec-forms.html#modedef-input-value" id="ref-for-modedef-input-value-3">value</a> 
+        </td><td class="yes"> <a data-link-type="mode" href="sec-forms.html#modedef-input-value" id="ref-for-modedef-input-value-4">value</a> 
+        </td><td class="yes"> <a data-link-type="mode" href="sec-forms.html#modedef-input-value" id="ref-for-modedef-input-value-5">value</a> 
+        </td><td class="yes"> <a data-link-type="mode" href="sec-forms.html#modedef-input-value" id="ref-for-modedef-input-value-6">value</a> 
+        </td><td class="yes"> <a data-link-type="mode" href="sec-forms.html#modedef-input-value" id="ref-for-modedef-input-value-7">value</a> 
+        </td><td class="yes"> <a data-link-type="mode" href="sec-forms.html#modedef-input-value" id="ref-for-modedef-input-value-8">value</a> 
+        </td><td class="yes"> <a data-link-type="mode" href="sec-forms.html#modedef-input-default-on" id="ref-for-modedef-input-default-on-1">default/on</a> 
+        </td><td class="yes"> <a data-link-type="mode" href="sec-forms.html#modedef-input-filename" id="ref-for-modedef-input-filename-1">filename</a> 
+        </td><td class="yes"> <a data-link-type="mode" href="sec-forms.html#modedef-input-default" id="ref-for-modedef-input-default-2">default</a> 
+        </td><td class="yes"> <a data-link-type="mode" href="sec-forms.html#modedef-input-default" id="ref-for-modedef-input-default-3">default</a> 
+        </td><td class="yes"> <a data-link-type="mode" href="sec-forms.html#modedef-input-default" id="ref-for-modedef-input-default-4">default</a> 
+       </td></tr><tr>
+        <th> <code class="idl"><a data-link-type="idl" href="sec-forms.html#dom-htmlinputelement-valueasdate" id="ref-for-dom-htmlinputelement-valueasdate-3">valueAsDate</a></code> 
+        </th><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+       </td></tr><tr>
+        <th> <code class="idl"><a data-link-type="idl" href="sec-forms.html#dom-htmlinputelement-valueasnumber" id="ref-for-dom-htmlinputelement-valueasnumber-3">valueAsNumber</a></code> 
+        </th><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+       </td></tr><tr>
+        <th> <code class="idl"><a data-link-type="idl" href="sec-forms.html#dom-htmlinputelement-list" id="ref-for-dom-htmlinputelement-list-3">list</a></code> 
+        </th><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+       </td></tr><tr>
+        <th> <code class="idl"><a data-link-type="idl" href="sec-forms.html#dom-selectionapielements-select" id="ref-for-dom-selectionapielements-select-3">select()</a></code> 
+        </th><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes† 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes† 
+        </td><td class="yes"> Yes† 
+        </td><td class="yes"> Yes† 
+        </td><td class="no"> · 
+        </td><td class="Yes"> Yes† 
+        </td><td class="no"> · 
+        </td><td class="yes"> Yes† 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+       </td></tr><tr>
+        <th> <code class="idl"><a data-link-type="idl" href="sec-forms.html#dom-selectionapielements-selectionstart" id="ref-for-dom-selectionapielements-selectionstart-3">selectionStart</a></code> 
+        </th><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+       </td></tr><tr>
+        <th> <code class="idl"><a data-link-type="idl" href="sec-forms.html#dom-selectionapielements-selectionend" id="ref-for-dom-selectionapielements-selectionend-3">selectionEnd</a></code> 
+        </th><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+       </td></tr><tr>
+        <th> <code class="idl"><a data-link-type="idl" href="sec-forms.html#dom-selectionapielements-selectiondirection" id="ref-for-dom-selectionapielements-selectiondirection-3">selectionDirection</a></code> 
+        </th><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+       </td></tr><tr>
+        <th> <code class="idl"><a data-link-type="idl" href="sec-forms.html#dom-selectionapielements-setrangetext" id="ref-for-dom-selectionapielements-setrangetext-4">setRangeText()</a></code> 
+        </th><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+       </td></tr><tr>
+        <th> <code class="idl"><a data-link-type="idl" href="sec-forms.html#dom-selectionapielements-setselectionrange" id="ref-for-dom-selectionapielements-setselectionrange-3">setSelectionRange()</a></code> 
+        </th><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+       </td></tr><tr>
+        <th> <code class="idl"><a data-link-type="idl" href="sec-forms.html#dom-htmlinputelement-stepdown" id="ref-for-dom-htmlinputelement-stepdown-3">stepDown()</a></code> 
+        </th><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+       </td></tr><tr>
+        <th> <code class="idl"><a data-link-type="idl" href="sec-forms.html#dom-htmlinputelement-stepup" id="ref-for-dom-htmlinputelement-stepup-3">stepUp()</a></code> 
+        </th><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+      </td></tr></tbody><tbody>
+       <tr>
+        <th colspan="15" scope="rowgroup">Events 
+       </th></tr><tr>
+        <th> <code>input</code> event 
+        </th><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+       </td></tr><tr>
+        <th> <code>change</code> event 
+        </th><td class="no"> · 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="yes"> Yes 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+        </td><td class="no"> · 
+     </td></tr></tbody></table>
+</body>
+</html>
